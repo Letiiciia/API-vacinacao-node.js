@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const cadastroVacina = new Schema ({
+const vacinaSchema = new Schema ({
 
     id: {
         type: mongoose.Schema.Types.ObjectId,
@@ -24,7 +24,12 @@ const cadastroVacina = new Schema ({
         type: String,
         require: true
     },
-    
+    cadastroVacina: {
+        type: Object,
+        require: true
+    },
+});
 
+const vacinaCollection = mongoose.model('vacina', vacinaSchema);
 
-})
+module.exports = {vacinaCollection}
