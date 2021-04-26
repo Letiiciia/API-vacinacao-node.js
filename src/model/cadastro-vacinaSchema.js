@@ -8,26 +8,18 @@ const vacinaSchema = new Schema ({
         auto: true,
         require: true
     },
-    nome: {
+    nomeVacina: {
         type: String,
         require: true
     },
-    email: {
-        type: String,
-        require: true
-    },
-    cpf: {
-        type: Number,
-        require: true
-    },
-    dataNascimento: {
-        type: String,
-        require: true
-    },
-    cadastroVacina: {
+    paciente: {
         type: Object,
         require: true
     },
+    data: {
+        type: Date,
+        default: Date.now
+    }
 });
 
 const vacinaCollection = mongoose.model('vacina', vacinaSchema);
