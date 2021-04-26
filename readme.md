@@ -38,11 +38,11 @@ Esta é uma API REST que controla a vacinação entre a população brasileira, 
 
 | Recurso | Descrição |
 | --- | --- |
-| `/criar` | Cria uma ficha do paciente|
+| `/criar` | Cria uma ficha do paciente    |
 
 | Recurso | Descrição |
 | --- | --- |
-| `/delete/id` | Apaga uma ficha por id|
+| `/delete/id` | Apaga uma ficha por id    |
 
 | Recurso | Descrição |
 | --- | --- |
