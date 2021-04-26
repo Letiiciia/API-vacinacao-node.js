@@ -35,19 +35,15 @@ Esta é uma API REST que controla a vacinação entre a população brasileira, 
 | Recurso | Descrição |
 | --- | --- |
 | `/cadastros` | Retorna lista de pacientes|
-<br>
 | Recurso | Descrição |
 | --- | --- |
 | `/criar` | Cria uma ficha do paciente|
-<br>
 | Recurso | Descrição |
 | --- | --- |
 | `/delete/id` | Apaga uma ficha por id|
-<br>
 | Recurso | Descrição |
 | --- | --- |
 | `/update/id` | Atualiza uma ficha por id|
-<br>
 ### 🛠 Tecnologias e Dependências Utilizadas
 
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
