@@ -3,7 +3,7 @@
 <img src="https://github.com/Letiiciia/API-vacinacao-node.js/blob/master/img/logo.png"/>
 </p>
 
-Esta é uma API REST que controla a vacinação entre a população brasileira, o cadatro desse paciente é composto pelos seguintes dados:<br>
+Esta é uma API REST que controla a vacinação entre a população brasileira, o cadatro do paciente é composto pelos seguintes dados:<br>
 ### Dados
 
 - [x] Nome da vacina
@@ -56,13 +56,29 @@ Esta é uma API REST que controla a vacinação entre a população brasileira, 
 - [Nodemon](https://nodemon.io/)
 - [Cors](https://www.npmjs.com/package/cors)
 - [Schema](https://schema.org/docs/documents.html)
+
+### Estrutura do projeto
+
+```
+ 📁 api
+   |
+   |-  📁 src
+   |    |  
+   |    |- 📁 controller
+   |    |- 📁 model
+   |    |- 📁 router
+   |    |- 📄 app.js
+   |
+   |- 📄 package.json 
+   |- 📄 server.js
+```
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### 🎲 Rodando o Back End (servidor)
+### Rodando o Back End (servidor)
 
 ```bash
 # Clone este repositório
@@ -77,20 +93,4 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm start
 # O servidor inciará na porta:8080 - acesse <http://localhost:8080>
-```
-### Estrutura do projeto
-
-
-```
- 📁 api
-   |
-   |-  📁 src
-   |    |  
-   |    |- 📁 controller
-   |    |- 📁 model
-   |    |- 📁 router
-   |    |- 📄 app.js
-   |
-   |- 📄 package.json 
-   |- 📄 server.js
 ```
