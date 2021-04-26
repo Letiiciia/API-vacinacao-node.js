@@ -4,3 +4,8 @@
 </p>
 
 Esta é uma API REST que controla a vacinação entre a população brasileira, o cadatro desse paciente é composto pelos seguintes dados:<br>
+### Dados
+
+- [x] nome da vacina
+- [x] dados pessoais do paciente (nome, email, cpf, data de nascimento e cidade)
+- [x] data do cadastro
