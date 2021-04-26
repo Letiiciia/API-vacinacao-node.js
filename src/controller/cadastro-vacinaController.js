@@ -57,8 +57,35 @@ const deleteCadastro = (request, response) => {
     })
 }
 
+const updateCadastro = (request, response) => {
+    console.log(request.url);
+    const id = request.params.id;
+    const body = request.body;
+    const update = {new: true};
+
+    vacinaCollection.vacinaCollection.findByIdAndUpdate(
+        id,
+        body,
+        update,
+        (error, cadastro) => {
+            if(error){
+                return response.status(400).send({
+                    message: "Falha ao atualizar",
+                    error
+                })
+            }else{
+                return response.status(200).send({
+                    message: "Atualizado com sucesso",
+                    cadastro
+                })
+            }
+        }
+    )
+}
+
 module.exports = {
     getCadastrosVacina,
     criarCadastro,
-    deleteCadastro
+    deleteCadastro,
+    updateCadastro
 }
