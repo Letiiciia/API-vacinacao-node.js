@@ -9,6 +9,29 @@ Esta é uma API REST que controla a vacinação entre a população brasileira, 
 - [x] Nome da vacina
 - [x] Dados pessoais do paciente (nome, email, cpf, data de nascimento e cidade)
 - [x] Data do cadastro
+
+### Visualização do Json
+```json
+    [
+        {
+        "message": "Cadatro realizado com sucesso",
+        "cadastro": {
+        "id": "60860d67780fd812f869a29f",
+        "_id": "60860d67780fd812f869a2a0",
+        "nomeVacina": "coronavac",
+        "paciente": {
+            "nome": "Leticia Lima",
+            "email": "leticia@gmail.com",
+            "cpf": "05659894469",
+            "dataNascimento": "05/09/1998",
+            "cidade": "Brasília"
+        },
+        "data": "2021-04-26T00:46:31.662Z",
+        "__v": 0
+        }, 
+        ...
+    ] 
+```
 <br>
 ### 🛠 Tecnologias e Dependências Utilizadas
 
@@ -40,4 +63,20 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm start
 # O servidor inciará na porta:8080 - acesse <http://localhost:8080>
+```
+### Estrutura do projeto
+
+
+```
+ 📁 api
+   |
+   |-  📁 src
+   |    |  
+   |    |- 📁 controller
+   |    |- 📁 model
+   |    |- 📁 router
+   |    |- 📄 app.js
+   |
+   |- 📄 package.json 
+   |- 📄 server.js
 ```
