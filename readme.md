@@ -3,7 +3,7 @@
 <img src="https://github.com/Letiiciia/API-vacinacao-node.js/blob/master/img/logo.png"/>
 </p>
 
-Esta é uma API REST que controla a vacinação entre a população brasileira, o cadatro do paciente é composto pelos seguintes dados:<br>
+Esta é uma API REST conectado ao Banco de Dados - MongoDB. Ela controla a vacinação entre a população brasileira, o cadatro do paciente é composto pelos seguintes dados:<br>
 ### Dados
 
 - [x] Nome da vacina
@@ -50,6 +50,7 @@ Esta é uma API REST que controla a vacinação entre a população brasileira, 
 ### 🛠 Tecnologias e Dependências Utilizadas
 
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [MongoDB](https://docs.mongodb.com/)
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 - [Mongoose](https://mongoosejs.com/docs/api.html)
@@ -75,7 +76,7 @@ Esta é uma API REST que controla a vacinação entre a população brasileira, 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [MongoDB](https://www.mongodb.com/try/download/community). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### Rodando o Back End (servidor)
